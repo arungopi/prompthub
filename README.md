@@ -1,2 +1,2 @@
-# prompthub
+# Prompthub
 A project for curated and custom prompts
