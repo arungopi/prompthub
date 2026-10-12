@@ -27,3 +27,18 @@
     Please provide:
     * [Choose one: A step-by-step UI/UX layout description / Updated frontend code for these components / A wireframe concept].
     * Ensure that all existing API calls, state management hooks, and button actions are preserved in the new layout structure.
+
+2. Hide the subset of features in the app  
+    You are an expert software engineer. I need you to perform the following tasks on the codebase:
+
+    1. **Hide the Current Feature:**
+        - Locate and safely disable or hide the feature: [Insert Feature Name / Description here].
+        - Ensure that hiding this feature does not break existing dependencies, workflows, UI layouts, or API endpoints.
+        - Use clean conditional checks, feature flags, or comment blocks as appropriate, ensuring the underlying code remains stable or is cleanly deprecated.
+
+    2. **Comprehensive Code Documentation:**
+        - Add clear, descriptive docstrings and inline comments for all modified or related functions, classes, and modules following standard conventions (e.g., PEP 8 / Google style for Python, JSDoc for JavaScript/TypeScript).
+        - Update any relevant project documentation (such as `README.md`, API specs, or configuration guides) to reflect that the feature is currently hidden.
+        - Provide a brief summary of the changes made and instructions on how the feature can be re-enabled in the future.
+
+    Please review the relevant files and implement these changes cleanly and efficiently.
